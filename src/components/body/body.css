@@ -1,0 +1,236 @@
+.body{
+    margin-left: 25rem;
+    background-color: whitesmoke;
+    height: 47rem;
+    position: absolute;
+    width: 39rem;
+    top:9px;
+}
+
+.retirement{
+    padding-left: 5rem;
+    margin-top: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+.start{
+    font-size: 25px;
+    margin-top: -1px;
+    color: black;
+    font-weight: bolder;
+}
+
+.currency{
+    display: flex;
+    width: 30rem;
+    margin-left: 5rem;
+}
+
+.dollar{
+    font-size: 25px;
+    display: flex;
+    width: 7rem;
+    flex-direction: column;
+}
+
+.goal{
+    margin-top: 1px;
+    font-size: 15px;
+    color: rgb(185, 171, 171);
+    border-bottom: 1px solid rgb(103, 82, 239);
+    border-width: 2.5px;
+}
+
+
+.dollar1{
+    padding-left: 2rem;
+    font-size: 25px;
+    display: flex;
+    width: 9rem;
+    flex-direction: column;
+    padding-left: 8vh;
+}
+
+.goal1{
+    margin-top: 1px;
+    width: 6rem;
+    font-size: 15px;
+    color: rgb(185, 171, 171);
+    border-bottom: 1px solid rgb(103, 82, 239);
+    border-width: 2.5px;
+}
+
+.dollar2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    margin-left: 4rem;
+}
+
+.goal2{
+    margin-top: 1px;
+    font-size: 15px;
+    color: rgb(185, 171, 171);
+    border-bottom: 1px solid rgb(103, 82, 239);
+    border-width: 2.5px;
+    margin-right: 25px;
+}
+
+.me{
+    display: flex;
+}
+
+.barchart{
+    display: flex;
+    flex-direction: column;
+}
+
+.contribution{
+    padding-left: 5rem;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.surya{
+    display: flex;
+    margin-left: 5rem;
+    width: 30rem;
+    margin-top: -3vh;
+}
+
+.dot{
+    color: blue;
+}
+
+.employ{  
+    font-size: 12px;
+    margin-top: 33px;
+    height: 15px;
+}
+
+.dot1{
+    color: rgb(110, 110, 214);
+    margin-left: 2rem;
+}
+
+.employ1{
+    font-size: 12px;
+    margin-top: 33px;
+    height: 15px;
+}
+
+.dot2{
+    color: rgb(187, 187, 219);
+    padding-top: -10px;
+    margin-left: 2rem;
+}
+
+.employ2{
+    font-size: 12px;
+    margin-top: 33px;
+    height: 15px;
+}
+
+.bar{
+    margin-top: -6vh;
+}
+
+.how{
+    padding-left: 12vh;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.these{
+    color: rgb(185, 171, 171);
+    margin-top: -1px;
+    font-size: 13px;
+}
+
+.priya{
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    margin-left: 5rem;
+    margin-top: -3vh;
+}
+
+.under{
+    border-bottom: 1px solid rgb(209, 198, 198);
+}
+
+.k{
+    border-bottom: 1px solid rgb(209, 198, 198);
+}
+
+.piechart{
+    margin-top: -10rem;
+    margin-left: 15rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+}
+.classes{
+    display: none;
+}
+
+@media screen and (max-width:740px){
+    
+    .body{
+        border-radius: 10%;
+        width: 35rem;
+        height: 48rem;
+        margin-left: 27rem;
+        margin-top: 20rem;
+    }
+    .currency{
+        display: flex;
+        flex-direction: column;  
+    }
+    .me{
+        display: flex;
+    }
+    .dollar,.goal{
+        width: 30rem;
+    }
+    .dollar1{
+        width: 10rem;
+        padding-left: 0px;
+    }
+     .dollar2{
+        width: 10rem;
+        padding-left: 0px;
+        margin-left: 12rem;  
+    }
+    .deepan{
+        display: none;
+    }
+    .employ,.employ1,.employ2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7vh;
+        margin-left: -15px;
+    }
+    .bar{
+        margin-top: 1.5vh;
+    }
+    .classes{
+        display: flex;
+    }
+    .yes{
+        display: flex;
+        flex-direction: row;
+        width: 45rem;
+        padding-left: 25px;
+        padding-right: 15px;
+        justify-content: space-between;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+    }
+    .no{
+        background-color: rgb(103, 82, 239);
+        border-radius: 15%;
+    }
+}

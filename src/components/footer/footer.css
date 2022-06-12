@@ -1,0 +1,169 @@
+.footer{
+    margin-left: 64rem;
+    margin-top: -99.8vh;
+    height: 47rem;
+    background-color: whitesmoke;
+}
+
+.jii{
+    display: none;
+}
+
+.strategy{
+    margin-left: 8px;
+    padding-left: 4.5vh;
+    padding-top: 30px;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(229, 226, 226);
+    border-radius: 3%;
+}
+
+.strata{
+    font-size: 20px;
+}
+
+.emp{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contri{
+    padding-right: 15px;
+    margin-top: -10px;
+}
+
+.ret{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+.r{
+    padding-right: 15px;
+    margin-top: -10px;
+}
+
+.s{
+    display: flex;
+    width: 15rem;
+    border-bottom: 1px solid rgb(185, 171, 171);
+}
+
+.ab{
+    font-weight: bold;
+}
+
+.bc{
+    margin-left: 4rem;
+}
+
+.mom{
+    font-weight: bold;
+}
+
+.dad{
+    margin-left: 9rem;
+}
+
+.but{
+    background-color: rgb(103, 82, 239);
+    height: 50px;
+    width: 200px;
+    border-radius: 12%;
+    border: none;
+    margin-left: 35px;
+    color: white;
+}
+
+.view{
+    color: rgb(103, 82, 239);
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: -5px;
+}
+
+.advertise{
+    width: 12rem;
+    border-left: 1px solid rgb(103, 82, 239);
+    border-width: 3px;
+}
+
+.are{
+    margin-left: 10px;
+}
+
+.limit{
+    color: rgb(173, 152, 152);
+    margin-top: -2vh;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.docs{
+    margin-left: 10px;
+    color: rgb(103, 82, 239);
+    font-weight: bold;
+}
+
+@media screen and (max-width:740px){
+    .footer{
+        height: 51.5rem;
+        margin-top: 18rem;
+        width: 25rem;
+        border-radius: 10%;
+        padding-top: 3rem;
+    }
+    .jii{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        height: 13.9rem;
+        margin-left: 4.5vh;
+    }
+    .ayrus{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .vj{
+        font-size: 13px;
+        color: rgb(185, 171, 171);
+    }
+    .mama{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 9rem;
+    margin-top: -14.5px;
+    }
+    .pie{
+        display: flex;
+        width: 22rem;
+    }
+    .strategy{
+        margin-top: 10rem;
+        margin-left: 0px;
+        width: 25rem;
+        height: 25rem;
+    }
+    .s{
+        display: flex;
+        width: 20rem;
+        border-bottom: 1px solid rgb(185, 171, 171);
+    }
+    .update{
+        margin-top: 2rem;
+    }
+    .but{
+        margin-left: -4.5vh;
+        width: 25rem;
+        border-radius: none;
+    }
+    .view{
+        display: none;
+    }
+    .advertise{
+        display: none;
+    }
+}

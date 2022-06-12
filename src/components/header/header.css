@@ -1,0 +1,198 @@
+.header{
+    margin-left: 50px;
+    height: 47rem;
+    width: 350px;
+    top: 9px;
+    position: absolute;
+    background-color: rgb(229, 226, 226);
+}
+
+.image{
+    display: flex;
+    margin-left: 0vh;
+}
+
+.imagedp{
+    object-fit: cover;
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10vh;
+}
+
+.dpname{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5vh;
+}
+
+.welcome{
+     margin-top: -5px;
+     font-weight: lighter;
+     font-size: 18px; 
+}
+
+
+.today{
+    margin-left: 4vh;
+    margin-right: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.now{
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.amount{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.account{
+    color: rgb(185, 171, 171);
+    margin-top: 0px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.number{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.year{
+    color: rgb(185, 171, 171);
+    margin-top: -18px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.total{
+    font-weight: bolder;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.interest{
+    color: rgb(185, 171, 171);
+    margin-top: -13px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.ton{
+    padding-left: 25px;
+}
+
+.button{
+    background-color: rgb(103, 82, 239);
+    height: 35px;
+    width: 90px;
+    border-radius: 12%;
+    border: none;
+    color: white;
+}
+
+.with{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-bottom: 3rem;
+}
+
+.recent{
+    font-size: 20px;
+    padding-top: 40px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.date{
+    color: rgb(185, 171, 171);
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.Withdrawal{
+    border-bottom: 1px solid black;
+    border-color: rgb(185, 171, 171);
+    margin-top: -12px;
+}
+.class{
+    display: none;
+}
+
+@media screen and (max-width:740px){
+    
+    .image{
+        margin-right: 11vh;
+        margin-left: 5vh;
+    }
+    .imagedp{
+        margin-left: 1vh;
+    }
+    .header{
+       margin-top: 5rem;
+       height: 41rem;
+       background-color: whitesmoke;
+       border-radius: 12%;
+
+    }
+    .today{
+        background-color: rgb(229, 226, 226);
+        border-radius: 10%;
+        width: 20rem;
+        margin-left: 13px;
+    }
+   .flex{
+       display: flex;
+   }
+   .year{
+       margin-top: 20px;
+       font-size: 14px;
+   }
+   .interest{
+    margin-top: 20px;
+    font-size: 14px;
+   }
+   .button{
+       width: 10rem;
+       margin-left: 3rem;
+   }
+   .with{
+       background-color: rgb(229, 226, 226);
+       margin-top: 3rem;
+       border-top-left-radius: 10%;
+       border-top-right-radius: 10%;
+       width: 20rem;
+       margin-left: 13px;
+   }
+   .none{
+       display: none;
+   }
+   .class{
+       display: flex;
+       width: 20rem;
+       margin-top: -17px;
+       margin-left: 10px;
+       justify-content: space-between;
+   }
+   .om{
+       background-color: rgb(103, 82, 239);
+       border-bottom-left-radius: 15%;
+       border-bottom-right-radius: 15%;
+   }
+   .ho{
+       display: flex;
+       justify-content: space-between;
+       width: 20rem;
+       margin-left: 12px;
+   }
+}
